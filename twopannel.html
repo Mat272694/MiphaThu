@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative Panel with Navigation Bar</title>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<style type="text/css">
+    body {
+         background-color: rgba(32, 6, 59, 1);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.panel {
+    width: 80vw; /* Set panel width to 80% of viewport width */
+    max-width: 800px; /* Set maximum width for the panel */
+    margin: 20px auto; /* Center the panel horizontally */
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: 20px; /* Add spacing to the right of the logo */
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.green-panel {
+    background-color: green;
+    padding: 20px;
+    margin-top: 20px; /* Add space between the panels */
+    border: 1px solid #ddd;
+}
+
+</style>
+</head>
+<body>
+    <div class="panel">
+        <div class="navbar">
+            <div class="logo">Logo</div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="content">
+            This is the panel content. Adjust the width and height based on your design.
+        </div>
+    </div>
+    <div class="green-panel">
+        This is another panel with a background color of green.
+    </div>
+</body>
+</html>
